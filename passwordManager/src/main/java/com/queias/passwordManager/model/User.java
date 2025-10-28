@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class User {
-    @Setter(AccessLevel.NONE)
+    //@Setter(AccessLevel.NONE)
     private int id;
     private String name;
     private String email;
